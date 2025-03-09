@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+    <link rel="website icon" type="png" href="FARMA.png">
+</head>
+<body>
+    <header>
+        <span>Carrinho de compras</span>
+    </header>
+    <main>
+        <div class="page-title">Seu Carrinho</div>
+        <div class="content">
+            <section>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Produto</th>
+                            <th>Preço</th>
+                            <th>Quantidade</th>
+                            <th>Total</th>
+                            <th>-</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="product">
+                                    <img src="teste.jpg" width="15%" alt="Imagem do Produto">
+                                    <div class="info">
+                                        <div class="name">CREATINA POWER</div>
+                                        <div class="category">Suplementos</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td id="unitprice">R$ 100</td>
+                            <td>
+                                <div class="qty">
+                                    <button id="btnMinus"><i class='bx bx-minus'></i></button>
+                                    <span id="quantity">4</span>
+                                    <button id="btnPlus"><i class='bx bx-plus'></i></button>
+                                </div>
+                            </td>
+                            <td id="price">R$ 400</td>
+                            <td>
+                                <button class="remove"><i class='bx bx-x'></i></button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <aside>
+                <div class="box">
+                    <header>Resumo da compra</header>
+                    <div class="info">
+                        <div><span>Sub-total</span><span id="subtotal"> R$ 400</span></div>
+                        <div><span>Frete</span><span> GRATIS</span></div>
+                        <footer>
+                            <span>Total</span>
+                            <span id="Total">R$ 400</span>
+                        </footer>
+                    </div>
+                    <button>Finalizar Compra</button>
+                </div>
+            </aside>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
