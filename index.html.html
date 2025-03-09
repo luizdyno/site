@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farma Brasil</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="website icon" type="png" href="FARMA.png">
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1></h1>
+        <img src="farma.jpeg" width="100%" height="100%">
+        <nav>
+            <ul>
+                <div class="search-box">
+                    <input type="text" class="search-text"  placeholder="Pesquisa">
+                    <a class="search-btn"></a>
+                    <i class='bx bx-search'></i>
+                    
+            </div>
+
+
+               <details>
+                <summary i class='bx bx-menu'></i>Menu</summary >
+                <li i class='bx bxs-home'></i><a href="#home">Home</a></li>   
+                <li i class='bx bxl-product-hunt' ></i><a href="/produto/produtos.html"target="_blank">Produtos</a> </li>
+                <li i class='bx bxs-contact'></i><a href="/contato/contato.html" target="_blank">Contato </a> </li>
+                <li i class='bx bx-category'></i><a href="/categoria/categorias.html" target="_blank">Categorias</a> </li>
+                <li i class='bx bxs-registered'></i><a href="/cadastro/cadastro.html" target="_blank">Cadastro</a></li>  
+                <li i class='bx bx-registered'></i><a href="/login/login.html"target="_blank"> Login</a></li>
+                <li i class='bx bx-cart'></i> <a href="/carrinho/carrinho.html"target="_blank">Carrinho</a> </li>
+            </details>
+            </ul>
+            
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Bem-vindo à nossa loja!</h2>
+
+            <p>Confira nossos produtos incríveis.</p>
+        </section>
+        <section id="produtos">
+            <h2>Produtos</h2>
+            <div class="produto">
+                <h3>Produto 1</h3>
+                <p>Paracetamol Medley 750mg Com 20 Comprimidos</p>
+                <p>R$ 0,00</p>
+                <button onclick="adicionarAoCarrinho('Produto 1')">Adicionar ao Carrinho</button>
+               
+            </div>
+            <div class="produto">
+                <h3>Produto 2</h3>
+                <p>Dipirona Monoidratada 1g Medley - 10 Comprimidos</p>
+                <p>R$ 0,00</p>
+                <button onclick="adicionarAoCarrinho('Produto 2')">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto">
+                <h3>Produto 3</h3>
+                <p>Descrição do produto 3.</p>
+                <button onclick="adicionarAoCarrinho('Produto 3')">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto">
+                <h3>Produto 4</h3>
+                <p>Descrição do produto 4.</p>
+                <button onclick="adicionarAoCarrinho('Produto 4')">Adicionar ao Carrinho</button> <br>
+            </div> <div class="produto">
+                <h3>Produto 5</h3>
+                <p>Descrição do produto 5.</p>
+                <button onclick="adicionarAoCarrinho('Produto 5')">Adicionar ao Carrinho</button> <br>
+            </div> <div class="produto">
+                <h3>Produto 6</h3>
+                <p>Descrição do produto 6.</p>
+                <button onclick="adicionarAoCarrinho('Produto 6')">Adicionar ao Carrinho</button> <br>
+            </div> <div class="produto">
+                <h3>Produto 7</h3>
+                <p>Descrição do produto 7.</p>
+                <button onclick="adicionarAoCarrinho('Produto 7')">Adicionar ao Carrinho</button> <br>
+            </div> <div class="produto">
+                <h3>Produto 8</h3>
+                <p>Descrição do produto 8.</p>
+                <button onclick="adicionarAoCarrinho('Produto 8')">Adicionar ao Carrinho</button> <br>
+            </div> <div class="produto">
+                <h3>Produto 9</h3>
+                <p>Descrição do produto 9.</p>
+                <button onclick="adicionarAoCarrinho('Produto 9')">Adicionar ao Carrinho</button> <br>
+            </div>
+        </section>
+    </main>
+    
+    <script src="scripts.js"></script>   
+</body>
+</html>
